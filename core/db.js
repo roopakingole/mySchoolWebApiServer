@@ -2,10 +2,10 @@
 var sync = require('synchronize');
 
 var connection = mysql.createConnection({
-    host     : 'localhost',
-    user     : 'root',
-    password : '77098@@psd',
-    database : 'school_tracking'
+    host     : 'myschooldb.cqpg3lhg6zxx.us-east-2.rds.amazonaws.com',
+    user     : 'master',
+    password : 'masterschool',
+    database : 'myschool'
 });
 
 connection.connect(function (err) {
